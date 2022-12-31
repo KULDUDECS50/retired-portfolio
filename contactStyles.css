@@ -99,3 +99,14 @@ form button{
     outline: none;
     background: #fd4766;
 }
+.success-form a{
+    border-radius: 30px;
+    border: 0;
+    width: 150px;    
+    margin-top: 18px;
+    color: #fffefe;
+    cursor: pointer;
+    padding: 15px;
+    outline: none;
+    background: #fd4766;
+}
