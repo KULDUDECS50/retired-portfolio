@@ -107,6 +107,9 @@ form button{
     color: #fffefe;
     cursor: pointer;
     padding: 15px;
+    padding-left: 50px;
     outline: none;
+    align-items: center;
+    text-decoration: none;
     background: #fd4766;
 }
