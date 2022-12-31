@@ -9,17 +9,17 @@
         
         <div class="contact-box">
             
-            <form onsubmit="sendEmail(); reset(); return false;"> 
+            <form action="https://formsubmit.co/kuldeep.debnath@gmail.com" method="POST"> 
                 <h1>Contact Me</h1>
-                <input type="text" class="input-field" placeholder="Name" required>
-                <input type="email" id="email" class="input-field" placeholder="Email" required>
-                <input type="text" id="subject" class="input-field" placeholder="Subject" required>
-                <textarea type="text" id="message"class="input-field textarea-field" placeholder="Message"></textarea>
+                <input type="text" name="name" class="input-field" placeholder="Name" required>
+                <input type="email" name="email" class="input-field" placeholder="Email" required>
+                <input type="text" name="_subject" value="New submission!" class="input-field" placeholder="Subject" required>
+                <textarea type="text" name="textarea" id="message"class="input-field textarea-field" placeholder="Message"></textarea>
                 <button type="submit">Send</button>
             </form>
 
         </div>
-        <script src=" https://smtpjs.com/v3/smtp.js"></script>
+        <!-- <script src=" https://smtpjs.com/v3/smtp.js"></script>
         <script>
             function sendEmail(){
                 Email.send({
@@ -34,7 +34,7 @@
                 message => alert(message)
                 );
             }
-        </script>
+        </script> -->
 
     </body>
 
