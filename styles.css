@@ -83,6 +83,7 @@ nav ul li a:hover:after{
     display: inline-block;
     margin-bottom: 20px;
     background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
