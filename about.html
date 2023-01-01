@@ -4,13 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="comingSoon.css">
+    <title>about</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="aboutStyles.css">
 
-    <title>About Kuldeep</title>
+ 
     
 </head>
 <body>
-    <h1>Coming soon...</h1>
+    <div class="container">
+        <!-- <div class=" row row-cols-2 g-5">
+            <div class="col">
+                <div class="row">
+                    <div class="col"><div class="box"></div></div>
+                    <div class="col"><div class="box"></div></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table">
+                <tr>
+                  <th>Company</th>
+                  <th>Contact</th>
+                  <th>Country</th>
+             
+                </tr>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                </tr>
+                <tr class="">
+                  <td>Centro comercial Moctezuma</td>
+                  <td>Francisco Chang</td>
+                  <td>Mexico</td>
+                </tr>
+              </table>
+        </div> -->
+        <h1>Contact Me</h1>
+
+        <form> 
+            <label for="name"class="form-label">Name</label>
+            <input type="text" name="name" class="form-control" placeholder="Name" required>
+            <div class="form-check form-switch">
+                <input type="checkbox" class="form-check-input">
+                <label for="email"class="form-label">Email</label>
+
+            </div>
+            <select class="form-select form-select-lg" disabled>
+                <option value="">1</option>
+                <option value="">2</option>
+            </select>
+            <label for="email"class="form-label">Email</label>
+            <input type="email" name="email" class="form-control form-control-plaintext" readonly value="loser@gmail.com" placeholder="Email" required>
+            
+
+            <button type="submit">Send</button>
+        </form>
+
+    </div>
+    
 </body>
 </html>
