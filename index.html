@@ -13,8 +13,8 @@
     <div class="hero">
         <nav>
             <img src="./img/logo.png" class="logo">
+            <!-- <a href="index.html"><h1 id="site-name">kuldp.dev</h1></a> -->
             <ul>
-                <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">Portfolio</a></li>
@@ -25,12 +25,23 @@
         </nav>
 
         <div class="content">
-            <span class="title">Freelance Web Developer</span>
-            <h1>Hello, I’m <span>Kuldeep</span></h1>
-            <p>I’m working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional React Template Imroz.</p>
+            <span class="title">Kuldeep Debnath</span>
+            <h1>I’m a <span class="autotype"></span></h1>
             <a href="#" class="btn">Download CV</a>
         </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".autotype", {
+            strings: ["student", "swimmer", "model un delegate", "coder", "entreprenuer", "mentor","innovator"],
+            typeSpeed: 150,
+            backspeed: 150,
+            loop:true
+        })
+    </script>
 
 </body>
 </html>
