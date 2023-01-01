@@ -9,7 +9,7 @@
 body{
     background-color:#1f1f25 !important;
 }
-h1{
+h1, p{
     color: #fffefe!important;
 }
 .form-control{
