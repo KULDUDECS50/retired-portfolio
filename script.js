@@ -34,11 +34,9 @@ darkModeToggle.addEventListener('click', () => {
   // if it not current enabled, enable it
   if (darkMode !== 'enabled') {
     enableDarkMode();
-    body.style.transition = '2s';
   // if it has been enabled, turn it off  
   } else {  
     disableDarkMode(); 
-    body.style.transition = '2s';
 
   }
 });
