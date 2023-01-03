@@ -2,9 +2,15 @@
 let darkMode = localStorage.getItem('darkMode'); 
 
 const darkModeToggle = document.querySelector('#toggleDark');
+const toggle = document.getElementById('toggleDark');
+
+toggle.addEventListener('click', function(){
+  this.classList.toggle('bi-moon');
+});
 
 const enableDarkMode = () => {
   // 1. Add the class to the body
+
   document.body.classList.add('darkmode');
 
   // 2. Update darkMode in localStorage

@@ -214,8 +214,22 @@ img {
 .autotype{
     color: var(--color-brand)
 }
-#toggelDark{
-    font-size: 70px;
+#toggleDark{
     cursor: pointer;
     position: absolute;
+    top:29%;
+    left: 10%;
+}
+.alert{
+    background: #3bb543dc;
+    color: var(--color-heading);
+    font-weight: 500;
+    font-size: large;
+    padding: 20px 40px;
+    z-index: 100;
+    min-width: 420px;
+    position: absolute;
+    right: 0px;
+    border-radius: 8px;
+    border-left: 4px solid #4bb543;
 }
