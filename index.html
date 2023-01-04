@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.0/jquery.bootstrap-growl.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery-QueryBuilder/2.6.2/js/query-builder.min.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -23,7 +24,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar">
+<body data-bs-spy="scroll" data-bs-target=".navbar" id="particles-js">
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -71,7 +72,9 @@
 
     <!-- CONTENT WRAPPER -->
     <div id="content-wrapper">
+
         <!-- HOME -->
+
         <section id="home" class="full-height px-lg-5">
 
             <div class="container">
@@ -89,7 +92,8 @@
                                  </p>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-                            <!-- <a href="#" class="link-custom">Call: (123) 456 7890</a> -->
+                            
+                            <a href="#contact" class="link-custom">Email: kuldeep.debnath@gmail.com</a>
                         </div>
                     </div>
 
@@ -158,20 +162,20 @@
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
-                        <h6 class="text-brand">WORK</h6>
+                        <h6 class="text-brand">Work</h6>
                         <h1>My Recent Projects</h1>
                     </div>
                 </div>
 
-                <div class="row gy-4">
+                <div id="work-section"  class="row gy-4">
 
                     <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                        <div class="card-custom rounded-4 bg-base shadow-effect h-100">
                             <div class="card-custom-image rounded-4">
                                 <img class="rounded-4" src="./assets/images/calcul8or.png" alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4 style="text-transform: capitalize;">Calcul8or</h4>
+                                <h4 style="text-transform: capitalize;">Calcul8or (2020)</h4>
                                 <p>My first Android Studio application that is availaible on the <b>Google Play Store!</b> </p>
                                 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.kuldeeepd.calculatorapp&hl=en_US&gl=US" class="link-custom">Read More</a>
                             </div>
@@ -179,12 +183,12 @@
                     </div>
 
                     <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                        <div class="card-custom rounded-4 bg-base shadow-effect h-100">
                             <div class="card-custom-image rounded-4">
                                 <img class="rounded-4" src="./assets/images/project-2.png" alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4 style="text-transform: capitalize;">Homework Immunity</h4>
+                                <h4 style="text-transform: capitalize;">Homework Immunity (2020)</h4>
                                 <p>This google extension allows the user to eliminate any instnces of the word "homework" from thier web page and replaces i with "Play Video Games".</p>
                                 <a target="_blank" href="https://chrome.google.com/webstore/detail/homework-immunity/ahmcjfcaligelanccpgbeimhfjpcbemi" class="link-custom">Read More</a>
                             </div>
@@ -192,27 +196,27 @@
                     </div>
 
                     <div class="col-md-6" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                        <div class="card-custom rounded-4 bg-base shadow-effect h-100">
                             <div class="card-custom-image rounded-4">
                                 <img class="rounded-4" src="./assets/images/project-3.png" alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4 style="text-transform: capitalize;">Barter.</h4>
-                                <p>Online investing app that adapts to live market data given by the CoinMarketCap API. Users can make an account with Firebase and invest thier balance into crypto. They can buy and sell thier stock as well as view how thier balance changes based on the market in real-time.</p>
+                                <h4 style="text-transform: capitalize;">Barter. (2022)</h4>
+                                <p>Online investing app that adapts to live market data given by the CoinMarketCap API. Users can make an account with Firebase and invest thier balance into crypto. They can buy and sell thier stock as well as view how thier balance changes based on the market in real-time. </p>
+                                <p>Colaborator - John Lewis</p>
                                 <a target="_blank" href="https://drive.google.com/file/d/1z_IDIF2tkNxQsEOPNL8_RnCpvVSNA0Ch/view?usp=sharing" class="link-custom">Read More</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                        <div class="card-custom rounded-4 bg-base shadow-effect h-100">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" style="height: 345px; "src="./assets/images/project-4.png" alt="">
+                                <img class="rounded-4" style="height: 400px; "src="./assets/images/project-4.png" alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
-                                <a target="_blank" href="#" class="link-custom">Read More</a>
+                                <h4>A-Z Poetry Book (2020)</h4>
+                                <p>A to Z Odes for Everyone 2020 edition, is a fun poetry book that includes a variety of odes and topics that begin with a consecutive letter of the alphabet. In the anthology, readers will be awed by funny narratives and smooth rhymes for some great giggles.</p>                                <a target="_blank" href="https://www.amazon.com/Odes-Everyone-2020-Ode-ebook/dp/B0B4X74BBF/ref=sr_1_1?crid=2BZUQXA4J05AW&keywords=kuldeep+debnath&qid=1672852926&sprefix=kuldeep+debnath%2Caps%2C117&sr=8-1" class="link-custom">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -228,12 +232,12 @@
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
-                        <h6 class="text-brand">ABOUT</h6>
+                        <h6 class="text-brand">About</h6>
                         <h1>My Education & Experience</h1>
                     </div>
                 </div>
 
-                <div class="row gy-5">
+                <div id="about-section" class="row gy-5">
                     <div class="col-lg-6">
 
                         <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
@@ -241,7 +245,7 @@
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>High school Student</h4>
+                                    <h4>High School Student</h4>
                                     <p class="text-brand mb-2">William Fremd High School (2020 - 2024)</p>
                                     <p class="mb-0">
                                         In high school, I took a number of computer science and programming courses which fostered my interest in the field and helped to lay the foundation for my future studies and career as a developer. These early experiences allowed me to develop valuable skills and knowledge that have been crucial to my success in the field.
@@ -276,28 +280,30 @@
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Certified html developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
+                                    <h4>Java Mentor</h4>
+                                    <p class="text-brand mb-2">startcodingminds (2023)</p>
                                     <p class="mb-0">
-                                        All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                                        I teach local middle-schoolers Java online with the material I learned through AP Computer Science A. Teaching middle schoolers has greatly impacted my leadership skills by requiring me to be patient, understanding, and adaptable, as well as helping me to develop effective communication and conflict resolution strategies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Certified html developer</h4>
+                                    <p class="text-brand mb-2">w3schools (2021)</p>
+                                    <p class="mb-0">
+                                        HTML was the first coding language that I learned, and it opened up a whole new world of possibilities for me. It sparked my love for programming and set me on the path to becoming a proficient developer.</p>
                                 </div>
                             </div>
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
+                                    <h4>Harvard <span style="text-transform: capitalize;">CS50</span></h4>
+                                    <p class="text-brand mb-2">Harvard (2021)</p>
                                     <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
                             </div>
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
-                            </div>
 
                         </div>
 
@@ -315,16 +321,16 @@
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
-                        <h6 class="text-brand">REVIEWS</h6>
-                        <h1>What my followers say</h1>
+                        <h6 class="text-brand">Reviews</h6>
+                        <h1>What my clients say</h1>
                     </div>
                 </div>
 
-                <div class="row gy-4">
+                <div #review-section class="row gy-4">
 
                     <div class="col-md-4" data-aos="fade-up">
 
-                        <div class="review shadow-effect bg-base p-4 rounded-4">
+                        <div class="review shadow-effect bg-base p-4 rounded-4 h-100">
                             <div class="text-brand h5">
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
@@ -335,8 +341,8 @@
                             <p class="my-3">
                                 Kuldeep is an excellent developer who consistently produces high-quality work. He is skilled in a wide range of programming languages and technologies, and is always willing to go the extra mile to ensure that projects are completed to the highest standard. In addition to his technical expertise, Kuldeep is a <b>great team player </b>who is always willing to help out and collaborate with others. His positive attitude and dedication to his work make him a valuable asset to any team.                            </p>
                             <div class="person">
-                                <h5 class="mb-0">Micheal Jordan</h5>
-                                <p class="mb-0">Twitter</p>
+                                <h5 class="mb-0">John Doe</h5>
+                                <p class="mb-0">Co-Developer</p>
                             </div>
                         </div>
 
@@ -344,7 +350,7 @@
 
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
 
-                        <div class="review shadow-effect bg-base p-4 rounded-4">
+                        <div class="review shadow-effect bg-base p-4 rounded-4 h-100">
                             <div class="text-brand h5">
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
@@ -364,7 +370,7 @@
 
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
 
-                        <div class="review shadow-effect bg-base p-4 rounded-4">
+                        <div class="review shadow-effect bg-base p-4 rounded-4 h-100">
                             <div class="text-brand h5">
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
@@ -373,11 +379,12 @@
                                 <i class="las la-star-half"></i>
                             </div>
                             <p class="my-3">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates aut dolor obcaecati, enim omnis perspiciatis odio! Provident qui optio quam.
-                            </p>
+                                Kuldeep's leadership skills are second to none, and I have learned so much from watching him in action.
+                                He has a unique ability to bring out the best in others and create a positive, collaborative atmosphere.
+                                His dedication to his work and team is admirable, and I have no doubt that he will continue to achieve great things.                            </p>
                             <div class="person">
-                                <h5 class="mb-0">review 3</h5>
-                                <p class="mb-0">group 3</p>
+                                <h5 class="mb-0">Jane Doe</h5>
+                                <p class="mb-0">Team Member</p>
                             </div>
                         </div>
 
@@ -386,7 +393,7 @@
                 </div>
 
             </div>
-        </section> -->
+        </section>
         
 
         <!-- BLOG -->
@@ -395,55 +402,138 @@
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
-                        <h6 class="text-brand">BlOG</h6>
+                        <h6 class="text-brand">Blog</h6>
                         <h1>My Blog Posts</h1>
                     </div>
                 </div>
 
-                <div class="row gy-4">
+                <div id="#blog-section" class="row gy-4">
 
-                    <div class="col-md-4" data-aos="fade-up">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
-                            <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/blog-post-1.jpg" alt="">
-                            </div>
-                            <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
-                                <a href="#" class="link-custom">Read More</a>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                        <div class="card-custom rounded-4 bg-base shadow-effect h-100">
                             <div class="card-custom-image rounded-4">
                                 <img class="rounded-4" src="./assets/images/blog-post-2.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
-                                <a href="#" class="link-custom">Read More</a>
+                                <p class="text-brand mb-2">2 Jan, 2023</p>
+                                <h5 class="mb-4">What are Binary Trees and how do we use them?</h5>
+                                <button class="modal-buttons" data-bs-toggle="modal" data-bs-target="#binaryModal">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal" id="binaryModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content" >
+                                <div class="modal-header">
+                                    <h5 class="modal-title">What are Binary Trees and how do we use them?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        A binary tree is a data structure that consists of nodes arranged in a tree-like structure. Each node has at most two children, which are referred to as the left child and the right child. The topmost node in the tree is called the root.
+                                        <br><br>
+                                        Binary trees are often used for searching and sorting data, as they provide a way to organize data in a hierarchical structure and allow for efficient insertion, deletion, and search operations.
+                                        <br><br>
+                                        There are several common ways to traverse a binary tree, including in-order, pre-order, and post-order traversal. In-order traversal involves visiting the left child, then the current node, and finally the right child. Pre-order traversal involves visiting the current node, then the left child, and finally the right child. Post-order traversal involves visiting the left child, the right child, and then the current node.
+                                        <br><br>
+                                        There are also various operations that can be performed on binary trees, such as insertion, deletion, and search. Binary search trees are a specific type of binary tree that are used to efficiently search for values in a sorted data set.
+                                        <br><br>
+                                        Binary trees have many applications, including in computer science, data analysis, and artificial intelligence. They are an important data structure to understand and can be a powerful tool in a developer's toolkit.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                        <div class="card-custom rounded-4 bg-base shadow-effect h-100">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/blog-post-3.jpg" alt="">
+                                <img class="rounded-4" src="./assets/images/android-studio-logo-1.webp" alt="">
+                            </div>
+                            <div class="card-custom-content p-4">
+                                <p class="text-brand mb-2">12 Dec, 2022</p>
+                                <h5 class="mb-4">Best Practices when working with Andriod Studio</h5>
+                                <button class="modal-buttons" data-bs-toggle="modal" data-bs-target="#androidModal">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal" id="androidModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content" >
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Best Practices when working with Andriod Studio</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        1. Use the built-in version control integration to manage your code changes and collaborate with other developers.
+                                        <br><br>
+                                        2. Use the Android Emulator or a physical device to test your app during development, rather than relying on manual testing.
+                                        <br><br>
+                                        3. Use the Android Lint tool to check your code for potential performance, usability, and security issues.
+                                        <br><br>
+                                        4. Take advantage of Android Studio's live layout and design previews to quickly see how your app will look on different devices and configurations.
+                                        <br><br>
+                                        5. Use the Android Profiler to diagnose performance issues and memory leaks in your app.
+                                        <br><br>
+                                        6. Use product flavors to easily create and maintain different versions of your app, such as a free version with ads and a paid version without ads.
+                                        <br><br>
+                                        7. Take advantage of Android Studio's built-in support for unit testing to ensure that your code is reliable and maintainable.
+                                        <br><br>
+                                        8. Use the Gradle build system to automate tasks such as building, testing, and deploying your app.
+                                        <br><br>
+                                        9. Use the Android Studio debugger to find and fix bugs in your code.
+                                        <br><br>
+
+                                        10. Keep your Android Studio installation up to date to ensure that you have access to the latest features and bug fixes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect h-100">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/blog-post-1.jpg" alt="">
                             </div>
                             <div class="card-custom-content p-4">
                                 <p class="text-brand mb-2">20 Dec, 2022</p>
-                                <h5 class="mb-4">Design a creative landing page using Bootstrap 5</h5>
-                                <a href="#" class="link-custom">Read More</a>
+                                <h5 class="mb-4">A deep dive into a Bootstrap 5 from a beginner POV</h5>
+                                <button class="modal-buttons" data-bs-toggle="modal" data-bs-target="#deepDiveBootstrap">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal" id="deepDiveBootstrap">
+                        <div class="modal-dialog">
+                            <div class="modal-content" >
+                                <div class="modal-header">
+                                    <h5 class="modal-title">A deep dive into a Bootstrap 5 from a beginner POV</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        Bootstrap is a popular HTML, CSS, and JavaScript framework for building responsive, mobile-first websites and applications. It provides a set of pre-designed components, layouts, and utility classes that make it easy to create professional-looking, consistent user interfaces.
+<br><br>
+One of the key features of Bootstrap is its responsive grid system, which allows you to create layouts that automatically adjust to the size and orientation of the device they are being displayed on. This is achieved using a combination of flexible grid layouts, media queries, and responsive utility classes.
+<br><br>
+Bootstrap also provides a wide range of pre-designed components, such as navbars, buttons, forms, tables, and alerts, that you can use to quickly build common user interface elements. These components can be customized using a combination of HTML, CSS, and JavaScript.
+<br><br>
+In addition to its core CSS and JavaScript files, Bootstrap also includes a number of optional plugins that provide additional functionality, such as modals, carousels, and popovers. These plugins can be easily included in your project by including the necessary JavaScript and CSS files.
+<br><br>
+To get started with Bootstrap, you will need to include the Bootstrap CSS and JavaScript files in your project, either by downloading them and linking to them locally, or by including them from a CDN. You can then begin using Bootstrap's pre-designed components and layouts in your HTML, or customize them using your own CSS and JavaScript.
+<br><br>
+Overall, Bootstrap is a powerful and easy-to-use tool for building professional-looking websites and applications. It is a great choice for beginners, as it provides a wide range of pre-designed components and layouts that can be easily customized to fit your needs.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
 
-            </div>
+
         </section>
         <!-- //BLOG -->
 
@@ -458,7 +548,7 @@
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-8 pb-4" data-aos="fade-up">
 
-                        <h6 class="text-brand">CONTACT</h6>
+                        <h6 class="text-brand">Contact</h6>
                         <h1>Interested in working together? Let's talk
                         </h1>
                     </div>
@@ -507,12 +597,13 @@
                     <div class="col-auto">
                         <div class="social-icons">
                             <!-- <a href="#"><i class="lab la-twitter"></i></a> -->
-                            <a href="https://www.instagram.com/kuldedep/"><i class="lab la-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/kuldeep-debnath-6607901a8/"><i class="lab la-linkedin"></i></a>
-                            <a href="https://github.com/KULDUDECS50"><i class="lab la-github"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/kuldedep/"><i class="lab la-instagram"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/kuldeep-debnath-6607901a8/"><i class="lab la-linkedin"></i></a>
+                            <a target="_blank" href="https://github.com/KULDUDECS50"><i class="lab la-github"></i></a>
+                            <a target="_blank" href="https://stackexchange.com/users/18508905/kuldeep-debnath"><i class="lab la-stack-overflow"></i></a>
                         </div>
                         <br>
-                        <p>Debnath © 2023 </p>
+                        <p>Debnath © 2023</p>
                     </div>
                 </div>
             </div>
@@ -520,6 +611,10 @@
         <!-- //FOOTER -->
 
     </div>
+
+
+</div>
+
     <!-- //CONTENT WRAPPER -->
 
 
@@ -556,5 +651,3 @@
 </body>
 
 </html>
-Debnath
-© 2023 

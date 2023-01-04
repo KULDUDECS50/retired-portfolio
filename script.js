@@ -64,3 +64,4 @@ darkModeToggle.addEventListener('click', () => {
 //         body.style.transition = '2s';
 //     }
 // });
+//modal

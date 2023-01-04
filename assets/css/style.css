@@ -25,7 +25,9 @@ body {
     background-color: var(--color-base2);
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
-    text-transform: lowercase;
+
+}
+.modal{
 
 }
 #name{
@@ -164,6 +166,53 @@ img {
 .link-custom:hover::after {
     width: 100%;
 }
+.modal-buttons {
+    background: none;
+    border: none;
+    padding: 0%;
+    color: var(--color-body);
+    font-weight: 700;
+    position: relative;
+}
+.modal-buttons:hover{
+    color: var(--color-brand);
+    transition: all 0.4s;
+
+}
+
+.modal-buttons::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-brand);
+    color: var(--color-brand);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+}
+
+.modal-buttons:hover::after {
+    width: 100%;
+    color: white !important;
+
+}
+
+.modal-header{
+    background-color: var(--color-base2);
+    color: var(--color-heading);
+}
+.modal-body{
+    background-color: var(--color-base);
+    color: var(--color-body);
+    padding: 40px;
+    
+}
+
+
+
+
+
 
 /* CARD */
 .card-custom .card-custom-image {
@@ -234,4 +283,17 @@ img {
     right: 0px;
     border-radius: 8px;
     border-left: 4px solid #4bb543;
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.particle-text
+{
+  text-align: center;
+  font-size:40px;
+  color: white;
+  font-family:segoe-print;
 }
