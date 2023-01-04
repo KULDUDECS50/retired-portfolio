@@ -473,19 +473,19 @@
                             <input type="hidden" name="_captcha" value="false">
                             <input type="hidden" name="_next" value="https://kuldp.dev/">
                             <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Enter your name" required>
+                                <input type="text"  name="name" class="form-control" placeholder="Enter your name" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control" placeholder="Enter your email" required>
+                                <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control" placeholder="Enter subject" required>
+                                <input type="text" name="_subject" class="form-control" placeholder="Enter subject" required>
                             </div>
                             <div class="col-12">
-                                <textarea type="text" name="" rows="4" class="form-control" placeholder="Enter your message/testimony"></textarea>
+                                <textarea type="text" name="textarea" name="" rows="4" class="form-control" placeholder="Enter your message/testimony"></textarea>
                             </div>
                             <div class="col-12 d-grid">
-                                <button type="submit" class="btn btn-brand">Contact me</button>
+                                <button type="submit" class="btn btn-brand" onclick="noti()">Contact me</button>
                             </div>
                         </form>
                         <br>
