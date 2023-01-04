@@ -111,13 +111,13 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
+        /* background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg); */
         background-size: cover;
         background-position: center;
     }
 
     .navbar-brand img {
-        border: 8px solid var(--color-brand);
+        border: 4px solid var(--color-brand);
     }
 
     /* CONTENT WRAPPER */
@@ -215,10 +215,11 @@ img {
     color: var(--color-brand)
 }
 #toggleDark{
+    font-size: 40px;
     cursor: pointer;
-    position: absolute;
-    top:29%;
-    left: 10%;
+    position: top;
+    text-decoration: none;
+
 }
 .alert{
     background: #3bb543dc;

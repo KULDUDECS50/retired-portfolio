@@ -25,12 +25,12 @@
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
         <div class="container flex-lg-column">
             <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                <i class="bi bi-brightness-high-fill" id="toggleDark"></i>
 
                 <span class="h3 fw-bold d-block d-lg-none" id="name";>kuldp.dev</span>
-                <img src="./assets/images/person.jpg" class="d-none d-lg-block rounded-circle" alt="">
+                <img src="./assets/images/person.jpg" class="d-none d-lg-block rounded-circle" alt="" style="height: 170px; width: 170px; border: 5px var(-color-base2);">
             
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,7 +39,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
-
+ 
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
@@ -47,24 +47,20 @@
                         <a class="nav-link" href="#services">Services</a>
                     </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
+                        <a class="nav-link" href="#work">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="#reviews">Reviews</a>
-                    </li> -->
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                                    <!-- toggling dark mode     -->
-                    </li>
-
                 </ul>
             </div>
         </div>
@@ -79,6 +75,11 @@
 
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-2 gy-9">
+                        <i data-aos="fade-up" data-aos-delay="150"class="bi bi-brightness-high-fill" id="toggleDark"></i>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-lg-10">
                         <h1 class="display-4 fw-bold" data-aos="fade-up">I'm a <span class="autotype"></span> from Chicago</h1>
                                 <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Kuldeep Debnath
@@ -86,9 +87,11 @@
                                  </p>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-                            <a href="#" class="link-custom">Call: (123) 456 7890</a>
+                            <!-- <a href="#" class="link-custom">Call: (123) 456 7890</a> -->
                         </div>
                     </div>
+
+
                 </div>
             </div>
 
@@ -236,13 +239,15 @@
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                                    <h4>High school Student</h4>
+                                    <p class="text-brand mb-2">William Fremd High School (2020 - 2024)</p>
+                                    <p class="mb-0">
+                                        In high school, I took a number of computer science and programming courses which fostered my interest in the field and helped to lay the foundation for my future studies and career as a developer. These early experiences allowed me to develop valuable skills and knowledge that have been crucial to my success in the field.
+                                    </p>
                                 </div>
                             </div>
 
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                            <!-- <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
                                     <h4>Master of Software Engineering</h4>
                                     <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
@@ -256,7 +261,7 @@
                                     <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
                                     <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
 
@@ -269,9 +274,10 @@
 
                             <div class="col-12" data-aos="fade-up" data-aos-delay="600">
                                 <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
+                                    <h4>Certified html developer</h4>
                                     <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                                    <p class="mb-0">
+                                        All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
                                 </div>
                             </div>
 
@@ -302,13 +308,13 @@
         <!-- //ABOUT -->
 
         <!-- REVIEWS -->
-        <!-- <section id="reviews" class="full-height px-lg-5">
+         <section id="reviews" class="full-height px-lg-5">
             <div class="container">
 
                 <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
                         <h6 class="text-brand">REVIEWS</h6>
-                        <h1>What our subscribers say</h1>
+                        <h1>What my followers say</h1>
                     </div>
                 </div>
 
@@ -324,9 +330,10 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                             </div>
-                            <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quae facilis fugiat molestias ab illum excepturi, qui optio modi asperiores, delectus maiores!</p>
+                            <p class="my-3">
+                                Kuldeep is an excellent developer who consistently produces high-quality work. He is skilled in a wide range of programming languages and technologies, and is always willing to go the extra mile to ensure that projects are completed to the highest standard. In addition to his technical expertise, Kuldeep is a <b>great team player </b>who is always willing to help out and collaborate with others. His positive attitude and dedication to his work make him a valuable asset to any team.                            </p>
                             <div class="person">
-                                <h5 class="mb-0">Jon Doe</h5>
+                                <h5 class="mb-0">Micheal Jordan</h5>
                                 <p class="mb-0">Twitter</p>
                             </div>
                         </div>
@@ -343,10 +350,11 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                             </div>
-                            <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quae facilis fugiat molestias ab illum excepturi, qui optio modi asperiores, delectus maiores!</p>
+                            <p class="my-3">
+                                Kuldeep is a top-notch developer with a wealth of knowledge and genius. He approaches every project with a <b>detail-oriented and analytical mindset</b>, ensuring that all aspects of the work are thoroughly thought through and carefully executed. Kuldeep is also a fantastic communicator, able to clearly and effectively convey his ideas and solutions to both technical and non-technical team members. He is a true asset to any team and I have no doubt that he will continue to excel in his career as a developer.</p>
                             <div class="person">
-                                <h5 class="mb-0">Jon Doe</h5>
-                                <p class="mb-0">Twitter</p>
+                                <h5 class="mb-0">John Lewis</h5>
+                                <p class="mb-0">Collegue</p>
                             </div>
                         </div>
 
@@ -360,12 +368,14 @@
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
                                 <i class="las la-star"></i>
-                                <i class="las la-star"></i>
+                                <i class="las la-star-half"></i>
                             </div>
-                            <p class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quae facilis fugiat molestias ab illum excepturi, qui optio modi asperiores, delectus maiores!</p>
+                            <p class="my-3">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates aut dolor obcaecati, enim omnis perspiciatis odio! Provident qui optio quam.
+                            </p>
                             <div class="person">
-                                <h5 class="mb-0">Jon Doe</h5>
-                                <p class="mb-0">Twitter</p>
+                                <h5 class="mb-0">review 3</h5>
+                                <p class="mb-0">group 3</p>
                             </div>
                         </div>
 
@@ -375,7 +385,7 @@
 
             </div>
         </section> -->
-        <!-- //REVIEWS -->
+        
 
         <!-- BLOG -->
         <section id="blog" class="full-height px-lg-5">
@@ -467,7 +477,7 @@
                                 <input type="text" class="form-control" placeholder="Enter subject">
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message/testimony"></textarea>
                             </div>
                             <div class="form-group col-12 d-grid">
                                 <button type="submit" class="btn btn-brand" onclick="noti()" >Contact me</button>
