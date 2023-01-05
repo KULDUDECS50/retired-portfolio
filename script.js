@@ -46,22 +46,22 @@ darkModeToggle.addEventListener('click', () => {
 
   }
 });
-
-
-
-// const toggle = document.getElementById('toggleDark');
-// const body = document.querySelector('body');
-
-// toggle.addEventListener('click', function(){
-//     this.classList.toggle('bi-moon');
-//     if(this.classList.toggle('bi-brightness-high-fill')){
-//         body.style.getElementById = 'white';
-//         body.style.color = 'black';
-//         body.style.transition = '2s';
-//     }else{
-//         body.style.background = 'black';
-//         body.style.color = 'white';
-//         body.style.transition = '2s';
-//     }
-// });
-//cool text
+//card swiper
+var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+var cardWidth = $(".carousel-item").width();
+var scrollPosition = 0;
+$(".carousel-control-next").on("click", function () {
+  if (scrollPosition < (carouselWidth - cardWidth * 4)) { //check if you can go any further
+    scrollPosition += cardWidth;  //update scroll position
+    $(".carousel-inner").animate({ scrollLeft: scrollPosition },600); //scroll left
+  }
+});
+$(".carousel-control-prev").on("click", function () {
+  if (scrollPosition > 0) {
+    scrollPosition -= cardWidth;
+    $(".carousel-inner").animate(
+      { scrollLeft: scrollPosition },
+      600
+    );
+  }
+});
