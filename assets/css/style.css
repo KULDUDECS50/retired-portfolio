@@ -467,3 +467,8 @@ img {
 .owl-theme .owl-dots {
       color: #5110e9;
 }
+.invalid-feedback{
+    color:#ff8c8c;
+    font-size: medium;  
+    font-weight: 400;
+}
