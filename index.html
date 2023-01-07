@@ -837,14 +837,15 @@ Overall, Bootstrap is a powerful and easy-to-use tool for building professional-
             // Loop over them and prevent submission
             Array.prototype.slice.call(forms)
                 .forEach(function (form) {
-                form.addEventListener('submit', function (event) {
-                if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-            }
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
 
-            form.classList.add('was-validated')
-            }, false)
+                    form.classList.add('was-validated')
+                    noti()
+                }, false)
             })
         })()
     </script>
