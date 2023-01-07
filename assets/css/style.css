@@ -464,3 +464,6 @@ img {
         opacity: 0;
     }
 }
+.owl-theme .owl-dots {
+      color: #5110e9;
+}
