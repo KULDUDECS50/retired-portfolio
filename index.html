@@ -692,12 +692,12 @@ Overall, Bootstrap is a powerful and easy-to-use tool for building professional-
                         <form class="row g-lg-3 gy-3 needs-validation" action="https://formsubmit.co/f1c2daa6861a7fe85a0e78d2b03d1fdb" method="POST" novalidate>
                             <input type="text" name="_honey" style="display:none">
                             <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="https://kuldp.dev/">
+                            <input type="hidden" name="_next" value="https://kuldp.dev/#contact">
                             <div class="col-md-6">
                                 <input type="text"  name="name" class="form-control" placeholder="Enter your name" required>
                                 <div class="invalid-feedback">
                                     Please enter your name.
-                                  </div>
+                                </div>
                             </div>
                             <div class="col-md-6">
                                 <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
@@ -714,7 +714,7 @@ Overall, Bootstrap is a powerful and easy-to-use tool for building professional-
 
                             <div class="col-12">
                                 <textarea type="text" name="textarea" rows="4" class="form-control" placeholder="Enter your message or review"></textarea>
-                                <div class="valid-feedback">
+                                <div class="invalid-feedback">
                                     Please enter your message or review.
                                   </div>
                             </div>
@@ -827,7 +827,26 @@ Overall, Bootstrap is a powerful and easy-to-use tool for building professional-
             })
 
         })(jQuery); 
-        
+                                // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+            }, false)
+            })
+        })()
     </script>
 </body>
 
