@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/trees.png">
 
     <title>Kuldeep Debnath</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/aos.css">
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -19,7 +19,7 @@
     
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -27,8 +27,8 @@
   
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" id="particles-js">
-
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
@@ -39,8 +39,7 @@
                 <img src="./assets/images/person.jpg" class="d-none d-lg-block rounded-circle" alt="" style="height: 170px; width: 170px; border: 5px var(-color-base2);">
             
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -72,9 +71,9 @@
         </div>
     </nav>
     <!-- //NAVBAR -->
-
-    <!-- CONTENT WRAPPER -->
     <div id="content-wrapper">
+    <!-- CONTENT WRAPPER -->
+    
         <!-- HOME -->
         <section id="home" class="full-height px-lg-5">
 
@@ -779,6 +778,13 @@ Overall, Bootstrap is a powerful and easy-to-use tool for building professional-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
+            $(document).ready(function () { 
+  $(document).click(function () {
+     // if($(".navbar-collapse").hasClass("in")){
+       $('.navbar-collapse').collapse('hide');
+     // }
+  });
+});
         var typed = new Typed(".autotype", {
             strings: ["student", "swimmer", "model U.N. delegate", "developer", "volunteer" , "poet","philanthropist","keynote speaker", "entreprenuer", "mentor","innovator","author"],
             typeSpeed: 150,
