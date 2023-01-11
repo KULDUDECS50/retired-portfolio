@@ -451,8 +451,6 @@ canvas {
   background: var(--color-base);
 }
 
-<<<<<<< HEAD
-=======
 ::-webkit-scrollbar-thumb {
   background: var(--color-body);
   border-radius: 100vw;
@@ -471,7 +469,7 @@ canvas {
   }
 }
 
-/* #cursor {
+#cursor {
     position: fixed;
     top: -16px;
     left: -16px;
@@ -479,14 +477,12 @@ canvas {
     height: 32px;
     width: 32px;
     border-radius: 50%;
-    background: #e0e1dd;
     opacity: 0;
 }
 
 #cursor.-activated {
     animation: fadeIn 1s ease-out forwards;
-} */
->>>>>>> 540443d56b9ee194bf9809f21869e75c8ec8409e
+}
 
 .tags-cloud {
   position: relative;
@@ -520,11 +516,3 @@ canvas {
   position: absolute;
   width: fit-content;
 }
-<<<<<<< HEAD
-
-.layertech{
-    position: absolute;
-    width: fit-content;
-}
-=======
->>>>>>> 540443d56b9ee194bf9809f21869e75c8ec8409e
