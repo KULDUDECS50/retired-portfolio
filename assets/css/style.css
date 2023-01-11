@@ -476,21 +476,6 @@ canvas {
     }
 }
 
-#cursor {
-    position: fixed;
-    top: -16px;
-    left: -16px;
-    z-index: 1;
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-    background: #e0e1dd;
-    opacity: 0;
-}
-
-#cursor.-activated {
-    animation: fadeIn 1s ease-out forwards;
-}
 
 .tags-cloud {
     position: relative;
@@ -520,6 +505,7 @@ canvas {
     display: inline-block;
     transform: translateX(-50%) translateY(-50%);
 }
+
 .layertech{
     position: absolute;
     width: fit-content;
