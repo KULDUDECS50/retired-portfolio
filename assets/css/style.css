@@ -466,3 +466,61 @@ canvas {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--color-brand2);
   }
+
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#cursor {
+    position: fixed;
+    top: -16px;
+    left: -16px;
+    z-index: 1;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #e0e1dd;
+    opacity: 0;
+}
+
+#cursor.-activated {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.tags-cloud {
+    position: relative;
+    top: calc(-10vmin);
+    left: calc(100%);
+    height: 60vmin;
+    width: 60vmin;
+    list-style: none;
+    z-index: -3;
+    opacity: 0;
+}
+
+.tags-cloud.-loaded {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.tags-cloud > .tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5vmin;
+    font-weight: bold;
+    transition: transform .5s linear, opacity .5s linear;
+}
+
+.tags-cloud > .tag > .wrap {
+    display: inline-block;
+    transform: translateX(-50%) translateY(-50%);
+}
+.layertech{
+    position: absolute;
+    width: fit-content;
+}
