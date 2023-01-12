@@ -488,9 +488,9 @@ canvas {
     opacity: 0;
 } */
 
-#cursor.-activated {
+/* #cursor.-activated {
     animation: fadeIn 1s ease-out forwards;
-}
+} */
 
 .tags-cloud {
     position: relative;
