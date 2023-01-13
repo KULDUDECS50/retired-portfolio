@@ -98,18 +98,18 @@
     --color-base2: #004135;
     --color-base: #00332a;
     --color-brand2: #93b36e;
-    --color-highlight: #fff;
+    --color-highlight: #fefefe;
     --color-brand: #b4dd86;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree"; 
 }
 
 .darkmode {
-    --color-body: #b6cbce;
+    --color-body: #cbe0e4;
     --color-heading: #c4e4ff;
     --color-base2: #001e41;
     --color-base: #000c33;
-    --color-brand2: #6eabb3;
+    --color-brand2: #dcdd86;
     --color-highlight: #fff;
     --color-brand: #86a4dd;
     --sidbar-width: 240px;
@@ -595,6 +595,7 @@ canvas {
     list-style: none;
     z-index: -3;
     opacity: 0;
+    color: var(--color-highlight);
 }
 
 .tags-cloud.-loaded {
