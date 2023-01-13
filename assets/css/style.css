@@ -9,7 +9,7 @@
 }
 
 :root {
-    /* brown */
+    /* fire */
     /* --color-body: #fafafa;
     --color-heading: #ff5733;
     --color-base2: #900c3e;
@@ -61,7 +61,7 @@
     --font-base: "Bai Jamjuree"; */
 
    /* KAWS color scheme */
-    --color-body: #b6cbce;
+    /* --color-body: #b6cbce;
     --color-heading: #c4dcff;
     --color-base2: #474E68;
     --color-base: #404258;
@@ -69,7 +69,7 @@
     --color-highlight: #fff;
     --color-brand: #6B728E;
     --sidbar-width: 240px;
-    --font-base: "Bai Jamjuree";
+    --font-base: "Bai Jamjuree"; */
 
     /* red scheme */
      /* --color-body: #ceb6b6;
@@ -92,6 +92,16 @@
     --color-brand: #86a4dd;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree"; */
+    /* emerald */
+    --color-body: #b6cbce;
+    --color-heading: #fdffc4;
+    --color-base2: #004135;
+    --color-base: #00332a;
+    --color-brand2: #93b36e;
+    --color-highlight: #fff;
+    --color-brand: #b4dd86;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree"; 
 }
 
 .darkmode {
