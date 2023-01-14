@@ -106,12 +106,12 @@
 
 .darkmode {
     --color-body: #cbe0e4;
-    --color-heading: #c4e4ff;
+    --color-heading: #dcdd86 ;
     --color-base2: #001e41;
     --color-base: #000c33;
-    --color-brand2: #dcdd86;
+    --color-brand2: #86a4dd;
     --color-highlight: #fff;
-    --color-brand: #86a4dd;
+    --color-brand: #c4e4ff;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
     /* emerald
@@ -384,7 +384,7 @@ img {
     cursor: pointer;
     position: top;
     text-decoration: none;
-    color: var(--color-brand2);
+    color: var(--color-heading);
 
 }
 
