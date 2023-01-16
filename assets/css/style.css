@@ -588,12 +588,12 @@ canvas {
 
 .tags-cloud {
     position: relative;
-    top: calc(-10vmin);
-    left: calc(100%);
+    align-items: center;
+    justify-content: center;
     height: 60vmin;
     width: 60vmin;
     list-style: none;
-    z-index: -3;
+    z-index: 1;
     opacity: 0;
     color: var(--color-highlight);
 }
@@ -616,6 +616,6 @@ canvas {
     transform: translateX(-50%) translateY(-50%);
 }
 .layertech{
-    position: absolute;
+    position: relative;
     width: fit-content;
 }
