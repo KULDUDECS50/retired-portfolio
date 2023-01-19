@@ -589,6 +589,7 @@ canvas {
   z-index: 1;
   opacity: 0;
   color: var(--color-highlight);
+  user-select: none;
 }
 
 .tags-cloud.-loaded {
