@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact Kuldeep</title>
+  <title>Tester</title>
   <link rel="stylesheet" href="./assets/css/newStyles.css">
   <script src="./assets/js/tst.js" defer></script>
 
@@ -11,11 +11,18 @@
 </head>
 
 <body>
+  <canvas class="canvasOne"></canvas>
+  <span class="autotype"></span>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-  <!-- particles.js container -->
-  <div id="particles-js"></div> <!-- stats - count particles -->
-  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+  <script>
+            var typed = new Typed(".autotype", {
+            strings: ["student", "swimmer", "model U.N. delegate", "developer", "volunteer", "poet", "philanthropist", "keynote speaker", "entreprenuer", "mentor", "innovator", "author"],
+            typeSpeed: 150,
+            backspeed: 100,
+            loop: true
+        })
+  </script>
 </body>
 
 </html>

@@ -584,7 +584,8 @@ canvas {
   align-items: center;
   justify-content: center;
   height: 60vmin;
-  width: 120vmin;
+  width: 60vmin;
+  left: 20%;
   list-style: none;
   z-index: 1;
   opacity: 0;
