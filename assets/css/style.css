@@ -617,3 +617,31 @@ canvas {
   position: relative;
   width: fit-content;
 }
+#winner-body{
+  font-weight: bold;
+  color: gold;
+
+}
+.ribbon{
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  z-index: 3;
+  width: 100px;
+  overflow:visible;
+  /* position: absolute;
+  right: -55px;
+  top: 20px;
+  text-align: center;
+  padding: 20px;
+  transform: rotate(45deg);
+  overflow: hidden; */
+}
+/* .ribbon span{
+  padding: 10px 45px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(#f1dd6c 0%, #deaa28 100%);
+  cursor: pointer;
+  overflow: hidden;
+} */
